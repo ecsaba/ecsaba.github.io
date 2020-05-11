@@ -1,0 +1,152 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    background-color: rgb(163, 162, 162); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, gray, lightgray, gray); /* Standard syntax (must be last)*/
+}
+header {
+    display: flex;
+    max-width: 100%;
+    position: relative;
+    border-radius: 20px;
+    height: 300px;
+    margin:  50 auto;
+    border: 1px solid dimgray;
+    box-shadow: 0px 0px 5px 2px dimgray;
+    background: repeating-linear-gradient(
+        45deg,
+        yellow 0px,
+        yellow 40px,
+        dimgray 40px,
+        dimGray 80px
+     );
+}
+.container {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 10%;
+    border-radius: 20px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 5px 2px grey;
+         
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: gold;
+    text-align: center;
+    margin: auto;
+    font-size: 3em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+.left {
+    width: 14%; 
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 2px dimgray;
+    background: repeating-linear-gradient(
+        90deg,
+        gray 0px,
+        gray 40px,
+        dimgray 40px,
+        dimGray 80px
+     );
+} 
+
+main {
+    width: 70%;    
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 2px dimgray;
+    background: repeating-linear-gradient(
+        0deg,
+        gray 0px,
+        gray 40px,
+        dimgray 40px,
+        dimGray 80px
+     );
+}
+
+.right {
+    width: 14%;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 2px dimgray;
+    background: repeating-linear-gradient(
+        90deg,
+        gray 0px,
+        gray 40px,
+        dimgray 40px,
+        dimGray 80px
+     );
+}
+
+.intro {
+    width: 90%;
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
+    border-radius: 20px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 5px 2px grey;
+    color: gold;
+    text-align: center;
+}
+
+#title1 {
+    text-align: center;
+}
+
+#email {
+    color:gold;
+    text-decoration: none;
+}
+
+#email:hover {
+    color: LightSteelBlue;
+    text-shadow: 0px 1px Crimson;
+
+}
+
+#link {
+    color:gold;
+    text-decoration: none;
+}
+
+#link:hover {
+color: LightSteelBlue;
+text-shadow: 0px 1px Crimson;
+}
+
+footer {
+    display: flex;
+    max-width: 100%;
+    position: relative;
+    border-radius: 20px;
+    height: 150px;
+    margin:  50 auto;
+    border: 1px solid dimgray;
+    box-shadow: 0px 0px 5px 2px dimgray;
+    background: repeating-linear-gradient(
+        135deg,
+        yellow 0px,
+        yellow 40px,
+        dimgray 40px,
+        dimGray 80px
+     );
+}
